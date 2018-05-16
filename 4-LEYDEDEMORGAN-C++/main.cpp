@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
 
     
      bool A= false;
-     bool B=true;
+     bool B=false;
      
      bool sol = !(A && B) ;
      bool sol2 = !(A || B) ;
