@@ -12,7 +12,10 @@
  */
 
 #include <cstdlib>
+#include <iostream>
 
+
+#define UNACONSTANTE  4000
 using namespace std;
 
 /*
@@ -20,6 +23,13 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
+    int y = 0;
+    
+    const float PI = 3.1416;
+   
+    cout<<"esto es pi "<< PI<<endl;
+    
+    cout<< "UNA CONSTANTE "<< UNACONSTANTE <<endl;
     return 0;
 }
 
