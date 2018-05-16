@@ -22,14 +22,19 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-
+    
+    char caracter ='a';
+    bool vacio = false;
+    bool falso = true;
     int y = 0;
     
     const float PI = 3.1416;
    
     cout<<"esto es pi "<< PI<<endl;
     
-    cout<< "UNA CONSTANTE "<< UNACONSTANTE <<endl;
+    cout<< "UNA CONSTANTE "<< UNACONSTANTE << ". True vale: "<< falso <<endl;
+    cout<< "un caracter "<< caracter<<endl;
+    cout<< "falso:  "<< vacio<<endl;
     return 0;
 }
 
