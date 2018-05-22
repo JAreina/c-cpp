@@ -24,13 +24,27 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 int vector[10], i;
- for(i=0; i++<10; (i++)){
+ for(i=1; i++<10; i++,(i++)){
+     (i == 5) ?  cout<< "cinco" <<endl : cout<< i<<endl;
     vector[i] = i;
-    cout<< i<<endl;
+    //cout<< i<<endl;
+   // i--;
+ }  
+cout<< "*********** 2 ************" <<endl;
+for(i=0; i++<10; (i++)){
+     (i == 5) ?  cout<< "cinco" <<endl : cout<< i<<endl;
+    vector[i] = i;
+    //cout<< i<<endl;
     i--;
  }  
-cout<< "************************" <<endl;
-
+cout<< "************ 3 ************" <<endl;
+for(i=0; i++<10; (i++)){
+     (i == 5) ?  cout<< "cinco" <<endl : cout<< i<<endl;
+    vector[i] = i;
+    //cout<< i<<endl;
+    i++;
+ }  
+cout<< "************ 4 ************" <<endl;
 for(i=0; i<=10; (i--)){
     vector[i] = i;
     cout<< i<<endl;
